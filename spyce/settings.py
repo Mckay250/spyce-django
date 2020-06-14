@@ -96,10 +96,10 @@ WSGI_APPLICATION = 'spyce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'spycestudios',
-        'USER': 'root',
+        'NAME': os.environ.get('MYSQL_NAME'),
+        'USER': os.environ.get('MYSQL_USER'),
         'PASSWORD': os.environ.get('MYSQL_PASSWORD'),
-        'HOST': 'localhost',
+        'HOST':  os.environ.get('MYSQL_HOST'),
         'PORT': '3306',
         'OPTIONS': {
                     'charset': 'utf8mb4',
