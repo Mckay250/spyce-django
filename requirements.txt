@@ -7,7 +7,7 @@ botocore==1.16.19
 cffi==1.14.0
 colorama==0.4.3
 constantly==15.1.0
-cryptography==2.9.2
+cryptography==3.2
 cssselect==1.1.0
 Django==3.0.7
 django-cleanup==4.0.0
