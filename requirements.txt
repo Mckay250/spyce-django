@@ -15,7 +15,7 @@ django-cors-headers==3.2.1
 django-s3direct==1.1.5
 django-storages==1.9.1
 django-unused-media==0.1.13
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 djangorestframework-api-key==2.0.0
 docutils==0.15.2
 hyperlink==19.0.0
